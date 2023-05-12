@@ -4,7 +4,7 @@ import {Route, Routes} from "react-router-dom"
 
 const App = () => {
   return (
-    <div>
+    <div >
       <Homepage />
       <Routes>
         <Route path='/taiwo'/>

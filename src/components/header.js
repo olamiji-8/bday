@@ -2,14 +2,15 @@ import React from 'react'
 import Kehinde from '../pages/kehinde'
 import Tawio from '../pages/tawio'
 
-const header = () => {
+const Header = () => {
   return (
-    <div>
-        <Tawio/>
+    <div className=" Header"> 
+        <Tawio />
         <Kehinde/>
+        
         
     </div>
   )
 }
 
-export default header
+export default Header
