@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import '../App.css';
 import Header from '../components/header'
+import birthdaySong from '../birthday_song.mp3'; // Import the birthday song
 
 const Homepage = () => {
   const [balloons, setBalloons] = useState([]);
+  const audioRef = React.createRef();
 
   useEffect(() => {
     // Function to create a new balloon
@@ -25,10 +27,16 @@ const Homepage = () => {
 
     return () => clearInterval(interval);
   }, []);
+
+  useEffect(() => {
+    audioRef.current.play(); // Start playing the birthday song
+  }, [audioRef]);
+
   return (
     <div>
         <Header/>
         <div className="container">
+        <audio ref={audioRef} src={birthdaySong} loop /> {/* Add the audio element */}
       {balloons.map((balloon) => (
         <div
           key={balloon.id}
@@ -48,3 +56,5 @@ const Homepage = () => {
 }
 
 export default Homepage
+
+
