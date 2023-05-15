@@ -1,0 +1,23 @@
+.dice {
+    position: absolute;
+    top: -100vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+    animation-name: diceAnimation;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes diceAnimation {
+    0% {
+      top: -100vh;
+    }
+     100% {
+      top: 100vh;
+    }
+  }
+  

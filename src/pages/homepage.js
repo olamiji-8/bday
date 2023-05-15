@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import '../App.css';
 import Header from '../components/header'
 import birthdaySong from '../birthday_song.mp3'; // Import the birthday song
+import Dice from '../components/ShinyObject/ShinyObject';
+
 
 const Homepage = () => {
   const [balloons, setBalloons] = useState([]);
@@ -35,6 +37,7 @@ const Homepage = () => {
   return (
     <div>
         <Header/>
+        <Dice/>
         <div className="container">
         <audio ref={audioRef} src={birthdaySong} loop /> {/* Add the audio element */}
       {balloons.map((balloon) => (
