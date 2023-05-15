@@ -1,7 +1,7 @@
 .header {
+
     background-color: darkmagenta;
     padding: 20px;
-   
     opacity: 0.9;
     color: aliceblue;
   }
@@ -9,19 +9,17 @@
   .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    text-align: center;
   }
   
-  .brand {
-    font-size: 24px;
-    font-weight: bold;
-  }
+
   
   .nav-items {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
+    
   }
   
   .nav-item {
@@ -32,6 +30,7 @@
     opacity: 0;
     transform: translateY(10px);
     transition: opacity 0.3s ease, transform 0.3s ease;
+    
   }
   
   .nav-item:nth-child(1) {
@@ -46,4 +45,8 @@
     opacity: 1;
     transform: translateY(0);
   }
+  .cake{
+  cursor: pointer;
+  display: flex;
   
+  }
