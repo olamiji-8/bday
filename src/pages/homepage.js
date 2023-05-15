@@ -10,6 +10,15 @@ const Homepage = () => {
   const audioRef = React.createRef();
 
   useEffect(() => {
+    const navItems = document.querySelectorAll('.nav-item');
+    navItems.forEach((item, index) => {
+      setTimeout(() => {
+        item.classList.add('show');
+      }, (index + 1) * 100);
+    });
+  }, []);
+
+  useEffect(() => {
     // Function to create a new balloon
     const createBalloon = () => {
       const colors = ['red', 'blue', 'green', 'yellow', 'purple', 'pink'];
@@ -59,5 +68,9 @@ const Homepage = () => {
 }
 
 export default Homepage
+
+
+
+
 
 

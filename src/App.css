@@ -1,8 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/fantasque-sans-mono');   
+
 body{
   text-decoration: none;
   border: none;
   outline: none;
-
+  font-family: 'Fantasque Sans Mono', sans-serif;
 
 }
 

@@ -5,13 +5,17 @@ import Tawio from '../pages/tawio'
 
 const Header = () => {
   return (
-    <div className=" Header"> 
-        <Tawio />
-        <Kehinde/>
-        
-        
-    </div>
+<header className="header">
+      <nav className="navbar">
+        <div className="brand"></div>
+        <ul className="nav-items">
+          <li className="nav-item">Tawio</li>
+          <li className="nav-item">Kehinde</li>
+        </ul>
+      </nav>
+    </header>
   )
 }
 
 export default Header
+
