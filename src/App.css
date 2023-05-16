@@ -8,6 +8,10 @@ body{
   font-family: 'Fantasque Sans Mono', sans-serif;
 
 }
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
 
 .container {
   position: relative;
