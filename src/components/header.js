@@ -1,17 +1,17 @@
 import React from 'react'
 import "./header.css"
-import Kehinde from '../pages/kehinde'
-import Tawio from '../pages/tawio'
 import Cake from '../Cake'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
 <header className="header">
       <nav className="navbar">
-      <Cake/>
+        <Link to = "/" >  <Cake/> </Link>
+     
         <ul className="nav-items">
-          <li className="nav-item">Tawio</li>
-          <li className="nav-item">Kehinde</li>
+          <Link to = "/taiwo" ><li className="nav-item">Taiwo</li></Link>
+          <Link to ="/kehinde" ><li className="nav-item">Kehinde</li></Link>  
         </ul>
       </nav>
     </header>

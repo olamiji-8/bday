@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Kehinde = () => {
+const kehinde = () => {
   return (
     <div>kehinde</div>
   )
 }
 
-export default Kehinde
+export default kehinde
