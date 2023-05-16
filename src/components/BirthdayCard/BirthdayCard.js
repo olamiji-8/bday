@@ -7,7 +7,7 @@ function BirthdayCard() {
     <div className="card">
       <div className="outside">
         <div className="front">
-          <p>Happy Birthday</p>
+          <p>Happy Birthday Taiwo</p>
           <div className="cake">
             <div className="top-layer"></div>
             <div className="middle-layer"></div>
@@ -24,6 +24,6 @@ function BirthdayCard() {
     </div>
     </div>
   );
-}
+}g
 
 export default BirthdayCard;
