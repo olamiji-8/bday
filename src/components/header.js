@@ -8,11 +8,13 @@ const Header = () => {
 <header className="header">
       <nav className="navbar">
         <Link to = "/" >  <Cake/> </Link>
-     
-        <ul className="nav-items">
-          <Link to = "/taiwo" ><li className="nav-item">Taiwo</li></Link>
-          <Link to ="/kehinde" ><li className="nav-item">Kehinde</li></Link>  
-        </ul>
+
+     <div className='Header_nav'>
+     <Link to = "/taiwo" >Taiwo</Link>
+          <Link to ="/kehinde" >Kehinde</Link>  
+     </div>
+
+        
       </nav>
     </header>
   )
