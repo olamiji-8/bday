@@ -1,11 +1,20 @@
 import React from "react";
 import "./Taiwo.css";
 import BirthdayCard from "../../components/BirthdayCard/BirthdayCard";
+import Header from "../../components/header";
+
 
 const Taiwo = () => {
   return (
-    <div>
-      <BirthdayCard/>
+    <div className="">
+      <div className="head">
+      <Header />
+      </div>
+     <div className="Taiwo">
+     <BirthdayCard/>
+     </div>
+     
+      
     </div>
   )
 }

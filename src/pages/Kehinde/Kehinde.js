@@ -1,10 +1,11 @@
-import React from 'react'
-import "./Kehinde.css"
+import React from 'react';
 
-const kehinde = () => {
+const Kehinde = () => {
   return (
-    <div className='Kehinde'>kehinde</div>
-  )
-}
+    <div>
+      <a href="https://bdayjs.vercel.app/">Hi</a>
+    </div>
+  );
+};
 
-export default kehinde
+export default Kehinde;
