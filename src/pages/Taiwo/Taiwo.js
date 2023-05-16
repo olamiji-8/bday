@@ -2,6 +2,7 @@ import React from "react";
 import "./Taiwo.css";
 import BirthdayCard from "../../components/BirthdayCard/BirthdayCard";
 import Header from "../../components/header";
+import SlidingCard from "./SlidingCard";
 
 
 const Taiwo = () => {
@@ -11,9 +12,13 @@ const Taiwo = () => {
       <Header />
       </div>
      <div className="Taiwo">
-     <BirthdayCard/>
+      <div className="grid">
+      <BirthdayCard/>
+     <SlidingCard/>
+      </div>
+
      </div>
-     
+    
       
     </div>
   )

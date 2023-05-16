@@ -1,0 +1,12 @@
+.SlidingCard1{
+    display: grid;
+    margin-top: 10%;
+    height: 48vh;
+    width: 30%;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    box-shadow:10px 20px 30px 30px rgba(0, 0, 0, 0.18);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+    margin-left: 2%;
+}

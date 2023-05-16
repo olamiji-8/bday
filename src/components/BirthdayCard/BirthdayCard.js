@@ -24,6 +24,5 @@ function BirthdayCard() {
     </div>
     </div>
   );
-}g
-
+}
 export default BirthdayCard;

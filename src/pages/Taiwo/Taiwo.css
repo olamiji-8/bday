@@ -1,8 +1,12 @@
 .Taiwo{
     background-color: #F7CAC9;
     height: 100vh;
+    display: grid;
 }
 
 .head{
     color: yellow;
+}
+.grid{
+    display: grid;
 }
