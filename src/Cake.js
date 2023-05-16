@@ -4,7 +4,7 @@ import "./components/header.css"
 
 const Cake = () => {
   return (
-    <div className="cake">
+    <div className="cakes">
         <img src={cake}  alt="" height="40px" style={{borderRadius:"50%"}}/>
     </div>
   )
