@@ -2,8 +2,8 @@
   .card {
     width: 640px;
     height: 400px;
-    position: absolute;
-    margin: auto;
+   margin-top: 4%;
+   
     left: 0;
     right: 0;
     top: 0;

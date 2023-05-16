@@ -14,7 +14,10 @@ const Taiwo = () => {
      <div className="Taiwo">
       <div className="grid">
       <BirthdayCard/>
-     <SlidingCard/>
+      <div className="split">
+      <SlidingCard/>
+      </div>
+    
       </div>
 
      </div>
