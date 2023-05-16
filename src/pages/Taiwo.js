@@ -1,8 +1,11 @@
 import React from 'react'
+import BirthdayCard from '../components/BirthdayCard/BirthdayCard'
 
 const Taiwo = () => {
   return (
-    <div>Taiwo</div>
+    <div>
+      <BirthdayCard/>
+    </div>
   )
 }
 
