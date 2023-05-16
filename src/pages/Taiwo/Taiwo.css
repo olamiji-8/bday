@@ -1,6 +1,12 @@
-.Taiwo{
+.Basic{
     background-color: #F7CAC9;
     height: 100vh;
+    overflow-y: scroll;
+}
+
+.Taiwo{
+    
+    
     display: flex;
     gap: 20px;
     
@@ -9,11 +15,7 @@
 .head{
     color: yellow;
 }
-.grid{
-    display: flex;
-    gap: 20px;
-    
-}
+
 .split{
     display: flex;
     gap: 20px;
@@ -21,18 +23,11 @@
 }
 
 @media (max-width: 768px) {
-    .Taiwo{
-        background-color: #F7CAC9;
-        height: 100vh;
-        display: grid;
-        gap: 20px;
-        
+    .Basic{
+        display: flex;
+        flex-wrap: wrap;
     }
-    .grid{
-        display: grid;
-        gap: 20px;
-        
-    }
+
     .split{
         display: grid;
         

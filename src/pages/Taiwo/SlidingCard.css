@@ -1,7 +1,5 @@
 .SlidingCard1 {
     margin-top: 1%;
-    height: 48vh;
-    width: 100%;
     border-radius: 10px;
     /* overflow: hidden; */
     box-shadow: 10px 20px 30px 30px rgba(0, 0, 0, 0.18);
@@ -17,6 +15,7 @@
   @media (max-width: 768px) {
     .SlidingCard1 {
       display: flex;
+      height: 24%;
       flex-direction: column; /* Set the direction to vertical */
       align-items: center; /* Center the images horizontally */
       overflow: hidden;

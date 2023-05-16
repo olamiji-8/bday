@@ -7,7 +7,7 @@ import SlidingCard from "./SlidingCard";
 
 const Taiwo = () => {
   return (
-    <div className="">
+    <div className="Basic">
       <div className="head">
       <Header />
       </div>
