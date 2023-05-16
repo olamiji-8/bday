@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Canvas } from 'react-three-fiber';
-import { Text } from '@react-three/drei';
 import * as THREE from 'three';
+import { Text } from '@react-three/drei';
+
 import './BirthdayCard.css'; // Import the CSS file for styling
 
 function Card({ isOpen, onClick }) {
@@ -17,7 +18,22 @@ function Card({ isOpen, onClick }) {
       {/* Left side */}
       <mesh position={[-3, 0, 0]} onClick={handleCardClick}>
         <planeBufferGeometry args={[6, 8]} />
-        <meshStandardMaterial color="#e91e63" side={isCardOpen ? THREE.BackSide : THREE.FrontSide} />
+        <meshStandardMaterial color="#e91e63" side={isCardOpen ? THREE.FrontSide : THREE.BackSide} />
+        {isCardOpen && (
+          <Text
+            position={[0, 0, 0.1]}
+            color="#fff"
+            fontSize={0.8}
+            maxWidth={5}
+            lineHeight={1}
+            letterSpacing={-0.05}
+            textAlign="center"
+            anchorX="center"
+            anchorY="middle"
+          >
+            Happy Birthday!
+          </Text>
+        )}
       </mesh>
 
       {/* Right side */}
