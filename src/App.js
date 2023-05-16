@@ -1,8 +1,8 @@
 import React from "react";
 import Homepage from "./pages/homepage";
 import { Route, Routes } from "react-router-dom";
-import Taiwo from "./pages/Taiwo";
 import Kehinde from "./pages/Kehinde";
+import Taiwo from "./pages/Taiwo/Taiwo";
 
 const App = () => {
   return (
