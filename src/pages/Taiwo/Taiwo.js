@@ -1,13 +1,15 @@
-import React from 'react'
-import BirthdayCard from '../../components/BirthdayCard/BirthdayCard'
-import "./Taiwo.css"
+import React from "react";
+import "./Taiwo.css";
+import BirthdayCard from "../../components/BirthdayCard/BirthdayCard";
 
 const Taiwo = () => {
   return (
-    <div className='Taiwo'>
+    <div>
       <BirthdayCard/>
     </div>
   )
 }
 
-export default Taiwo
+export default Taiwo;
+
+

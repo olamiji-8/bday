@@ -1,8 +1,9 @@
 import React from 'react'
+import "./Kehinde.css"
 
 const kehinde = () => {
   return (
-    <div>kehinde</div>
+    <div className='Kehinde'>kehinde</div>
   )
 }
 

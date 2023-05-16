@@ -1,7 +1,7 @@
 import React from "react";
 import Homepage from "./pages/homepage";
 import { Route, Routes } from "react-router-dom";
-import Kehinde from "./pages/Kehinde";
+import Kehinde from "./pages/Kehinde/Kehinde";
 import Taiwo from "./pages/Taiwo/Taiwo";
 
 const App = () => {
